@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h4>The movie you were looking for is:</h4> {{ result.get("movie")}}
+        <h4>And it's genre is:</h4> {{ result.get("movieGen") }}
+        <h4>It's lead hero is</h4> {{ result.get("movieAct1") }}
+        <h4>Based on lead actor, we thought you might also enjoy:</h4> {{ result.get("rec1") }}
+        
+        <h4>And it's genre is:</h4> {{ result.get("rec1gen") }}
+        <h4>It's lead hero is</h4> {{ result.get("rec1act1") }}
+    
+        <h4>Based on genre, we thought you might also enjoy:</h4>
+        <h4>You would enjoy the following movie:</h4> {{ result.get("rec2") }}
+        <h4>And it's genre is:</h4> {{ result.get("rec2gen") }}
+        <h4>It's lead hero is</h4> {{ result.get("rec2act1") }}
+    </body>
+
+</html>
